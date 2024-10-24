@@ -12,7 +12,7 @@
 }
 .titulo-secundario{
     font-size: 24px;
-    font-family: var(--roboto-mono);
+    font-family: var(--fonte-titulo);
     text-align: center;
 }
 .logo{
