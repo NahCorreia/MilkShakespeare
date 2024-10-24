@@ -1,13 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-.titulo {
-    color: rgb(red, green, blue);
-    text-align: center;
-    font-family: 'Dancing Script';
-    font-size: 100px;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:wght@400;700&display=swap');
+:root{ 
+    --branco: white;
+    --cor-de-fundo: #00162E;
+    --borda: #0075FF;
+    --roboto-mono; 'Roboto Mono', monospace;
+    --roboto:'Roboto', sans-serif;
 }
-.subtitulo {
-    color: rgb(red, green, blue);
-    text-align: center;
-    font-family: 'Dancing Script';
-    font-size: 40px; 
+.titulo-principal {
+    font-family: var(--roboto-mono);
+    font-size: 32px;
+}
+.titulo-secundario{
+    font-size: 24px;
 }
