@@ -2,8 +2,10 @@
 :root{ 
     --branco: white;
     --cor-de-fundo: #00162E;
-    --borda: #0075FF;
     --fonte-titulo: 'Dancing Script';
+}
+body{
+    background-color: blue;
 }
 .titulo-principal {
     font-family: var(--fonte-titulo);
