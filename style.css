@@ -5,7 +5,7 @@
     --fonte-titulo: 'Dancing Script';
 }
 body{
-    background-color: blue;
+    background-color: #FFFAF2;
 }
 .titulo-principal {
     font-family: var(--fonte-titulo);
