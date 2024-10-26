@@ -39,9 +39,10 @@ body{
    
 }
 
-.texto1 {
-    color: #3D3D3D;
+.texto01 {
+    align-items: center;
+    margin: 20px;
     font-family: var(--fonte-texto);
-    text-align: center;
+    color: #3D3D3D;
     margin: 50px;
 }
