@@ -26,6 +26,7 @@ body{
     font-family: var(--fonte-titulo2); 
     font-size: 100px;
     color: #EB8D96;
+    text-align: center;
 }
 
 .texto-header h2 {
