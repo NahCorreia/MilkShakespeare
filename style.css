@@ -26,12 +26,34 @@ body{
     width: 300px;
     height: 300px;
 }
-.btn {
+.botao-livros {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #4CAF50;
+    background-color: #f39c12;
     color: white;
     text-decoration: none;
     border-radius: 5px;
-    transition: background-color 0.3s ease;
+    font-size: 16px;
 }
+.botao-livros:hover {
+    background-color: #e67e22;.livros-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    
+    .livro {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 10px;
+        text-align: center;
+        width: 200px; 
+    }
+    
+    .livro img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 5px;
+    }
+}
+
