@@ -9,51 +9,23 @@
 body{
     background-color: #FFFAF2;
 }
-.titulo-principal {
-    font-family: var(--fonte-titulo2);
-    font-size: 40px;
-    text-align: center;
-}
-.titulo-secundario{
-    font-size: 24px;
-    font-family: var(--fonte-titulo);
-    text-align: center;
-}
-.inicio{
-    text-align: center;
-}
-.logo{
-    width: 300px;
-    height: 300px;
-}
-.botao-livros {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #f39c12;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 16px;
-}
-.botao-livros:hover {
-    background-color: #e67e22;.livros-container {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 20px;
-    }
-    
-    .livro {
-        border: 1px solid #ccc;
-        border-radius: 5px;
-        padding: 10px;
-        text-align: center;
-        width: 200px; 
-    }
-    
-    .livro img {
-        max-width: 100%;
-        height: auto;
-        border-radius: 5px;
-    }
+.header {
+    display: flex;
+    align-items: center;
+    margin: 20px; 
 }
 
+.imagem-header {
+    width: 100px; 
+    height: auto; 
+    margin-right: 20px; 
+}
+
+.texto-header h1 {
+    margin: 0; 
+}
+
+.texto-header h2 {
+    margin: 0; 
+    color: gray; 
+}
