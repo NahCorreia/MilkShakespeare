@@ -44,12 +44,6 @@ body{
     margin: 20px;
     color: #3D3D3D;
     margin: 50px;
+    font-size: var(--fonte-texto);
 }
 
-.texto01 h1 {
-    font-family: var(--fonte-texto);
-}
-
-.texto01 h2 [
-    font-family: var(--fonte-texto);
-]
