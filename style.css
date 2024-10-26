@@ -25,11 +25,12 @@ body{
     margin: 0;
     font-family: var(--fonte-titulo2); 
     font-size: 100px;
+    color: #9D613F;
 }
 
 .texto-header h2 {
     margin: 0; 
-    color: gray; 
+    color: #EB8D96;
     font-family: var(--fonte-titulo);
     font-size: 50px;
 }
