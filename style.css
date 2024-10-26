@@ -42,7 +42,10 @@ body{
 .texto01 {
     align-items: center;
     margin: 20px;
-    font-family: var(--fonte-texto);
     color: #3D3D3D;
     margin: 50px;
+}
+
+.texto01 h1 {
+    font-family: var(--fonte-texto);
 }
