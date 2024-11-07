@@ -50,7 +50,7 @@ body{
  
 .texto01 p {
     font-family: var(--fonte-texto);
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
     color: #9D613F;
 }
