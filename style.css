@@ -39,12 +39,17 @@ body{
    
 }
 
-.texto01 {
-    align-items: center;
+.texto01 h1 {
+    text-align: center;
     margin: 20px;
     color: #3D3D3D;
     margin: 50px;
     font-family: var(--fonte-texto);
     font-size: 10px;
 }
-
+ 
+.texto01 p {
+    font-family: var(--fonte-texto);
+    font-size: 10px;
+    text-align: center;
+}
