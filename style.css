@@ -1,56 +1,89 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=DynaPuff:wght@400..700&display=swap');
-
-:root{ 
-    --branco: white;
-    --cor-de-fundo: #00162E;
-    --fonte-titulo2: 'Dancing Script';
-    --fonte-titulo: 'DynaPuff';
-    --fonte-texto: 'Asap';
-}
-body{
-    background-color: #FFFAF2;
-}
-.inicio {
-    display: flex;
-    align-items: center;
-    margin: 20px; 
-}
-
-.logo {
-    width: 400px; 
-    height: auto; 
-    margin-right: 50px; 
-}
-
-.titulo-principal h1 {
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
-    font-family: var(--fonte-titulo); 
-    font-size: 100px;
-    color: #EB8D96;
-}
-
-.titulo-principal h2 {
-    margin: 0; 
-    color: #EB8D96;
-    font-family: var(--fonte-titulo2);
-    font-size: 50px;
-   
-}
-
-.texto01 h1 {
+    padding: 0;
+    background-color: #FFFAF2;
+    color: #515050;
+  }
+  
+  header {
+    background-color: #515050;
+    color: white;
+    padding: 10px;
     text-align: center;
-    margin: 20px;
-    color: #9D613F;
-    margin: 50px;
-    font-family: var(--fonte-texto);
-    font-size: 30px;
-}
- 
-.texto01 p {
-    font-family: var(--fonte-texto);
-    font-size: 30px;
+  }
+  
+  header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  header nav a:hover {
+    text-decoration: underline;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  #slideshow {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto 20px;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  
+  .slide {
+    display: none;
+  }
+  
+  .slide.ativo {
+    display: block;
+  }
+  
+  .slide img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .produto {
+    margin-bottom: 20px;
     text-align: center;
-    color: #9D613F;
-}
+  }
+  
+  .produto img {
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #ec7480;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ffa1ac;
+  }
+  
+  footer {
+    text-align: center;
+    background: #515050;
+    color: white;
+    padding: 10px 0;
+  }
+
+  #produtos h2 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 2rem;
+    color: #515050;
+  }
